@@ -3,8 +3,8 @@ namespace App\classes;
 
 
 abstract class Livre{
-    private string $titre;
-    private int $annee;
+    protected string $titre;
+    protected int $annee;
     static private int $compteur = 0;
     private static array $livres = [];
 
