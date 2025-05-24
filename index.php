@@ -17,25 +17,30 @@ $livres = [
     new LivreNumerique("Histoire du web", 2014),
     new ManuelScolaire("Physique-Chimie Seconde", 2010),
 ];
-echo "\n************************* \n";
-echo "Consulter les livre \n";
-echo "************************* \n";
-foreach($livres as $livre){
-    echo ($livre->consulter());
-    echo "\n";
-}
+// echo "\n************************* \n";
+// echo "Consulter les livre \n";
+// echo "************************* \n";
+// foreach($livres as $livre){
+//     echo ($livre->consulter());
+//     echo "\n";
+// }
+// // foreach ($livres as $livre) {
+// //     echo "📚 {$livre->getTitle()} ({$livre->getAnnee()}) : " . $livre->consulter() ."\n" ;
+// // }
 
-echo "\n\n************************* \n";
-echo "Nombre total de livres \n";
-echo "************************* \n";
-echo (Livre::getNombreLivres());
+// echo "\n\n************************* \n";
+// echo "Nombre total de livres \n";
+// echo "************************* \n";
+// echo (Livre::getNombreLivres());
 
-echo "\n\n************************* \n";
-echo "Livres publiés après 2015 \n";
-echo "************************* \n";
-foreach($livres as $livre){
-    if ($livre->getAnnee() > 2015) {
-        echo ($livre->consulter());
-        echo "\n";
-    }
-}
+// echo "\n\n************************* \n";
+// echo "Livres publiés après 2015 \n";
+// echo "************************* \n";
+// foreach($livres as $livre){
+//     if ($livre->getAnnee() > 2015) {
+//         echo ($livre->consulter());
+//         echo "\n";
+//     }
+// }
+
+Livre::getLivres();
