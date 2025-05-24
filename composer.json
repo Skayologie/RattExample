@@ -1,0 +1,15 @@
+{
+    "name": "youcode/ex01",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jawad Boulmal",
+            "email": "jawadboulmal@gmail.com"
+        }
+    ],
+    "require": {}
+}
